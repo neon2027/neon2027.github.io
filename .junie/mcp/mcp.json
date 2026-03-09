@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "/Users/exequiellustan/Library/Application Support/Herd/bin/php84",
+            "args": [
+                "/Users/exequiellustan/PhpstormProjects/lustan-portfolio/artisan",
+                "boost:mcp"
+            ]
+        },
+        "herd": {
+            "command": "/Users/exequiellustan/Library/Application Support/Herd/bin/php84",
+            "args": [
+                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+            ],
+            "env": {
+                "SITE_PATH": "/Users/exequiellustan/PhpstormProjects/lustan-portfolio"
+            }
+        }
+    }
+}
